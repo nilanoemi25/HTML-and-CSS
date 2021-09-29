@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 Making a nother change. boo yah 
+=======
+New text to be added to the added 
+Adding some text. 
+>>>>>>> master
