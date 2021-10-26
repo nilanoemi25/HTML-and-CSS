@@ -24,7 +24,7 @@ text-decoration: none;
     border-radius: 6px; 
     /*background-color: #052126; */
     cursor: pointer; 
-    transition-property: background;
+    transition-property: background ;
     transition-duration: -4s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;

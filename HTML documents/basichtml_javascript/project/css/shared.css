@@ -28,15 +28,15 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     line-height: 50px;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
     color: #E91C1C;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.5)
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5) 
 }
 
-h1::after { /*this is the underline */
+h1::after { 
  display: block;
  content: ""; 
  height: 2px; 
@@ -81,7 +81,7 @@ p {
 }
 
 
-section{
+section {
     padding-top:50; 
     margin-top: 50; 
  } 
@@ -112,9 +112,9 @@ section{
       margin-left: -15px;
 }
 
-.clearfix:after;
-.clearfix:container;
-.navbar:after {
+.clearfix::after;
+.clearfix::container;
+.navbar::after {
     clear: both; 
     display: table; 
     contents: "";
@@ -129,10 +129,10 @@ section{
      top: 0;
      left: 0;
      text-align: center; 
-
+     
 }
 
-.menu-container {
+.menu-container  {
  max-height: 340px;
  margin: 0% auto;
  content: " ";
@@ -143,6 +143,19 @@ width: 100;
 position:fixed; 
 z-index:100;
 /*background-color: rgba(255,255,255,0.5);*/
+}
+
+.menu-container li {
+    color: #B3B3B3;
+    display: inline-block;
+    margin-right:-4px;
+    position: relative;
+    padding: 12px 40px; 
+    border: 1px solid #9D9FA2;
+    border-radius: 1.5px;
+    background-color: #387593;
+
+    cursor: pointer;
 }
 
 /* ------------------------------------------------------------
@@ -306,7 +319,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 5px;
     color: #000;
     cursor: pointer;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     font-weight: 600;
 }
 
@@ -322,7 +335,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     outline: none; 
     text-align: center; 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     margin: 0, 3% ;
     padding: 7px 0px;
     width: 25%;
