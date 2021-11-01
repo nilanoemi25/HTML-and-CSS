@@ -41,7 +41,7 @@ h1::after {
  content: ""; 
  height: 2px; 
  width: 150px;
- color: #E91C1C;
+ background-color: #E91C1C;
  margin: 5px auto 40px;
  box-shadow: 5px 2px 3px rgba(0,0,0,0.5)
 }
@@ -145,18 +145,7 @@ z-index:100;
 /*background-color: rgba(255,255,255,0.5);*/
 }
 
-.menu-container li {
-    color: #B3B3B3;
-    display: inline-block;
-    margin-right:-4px;
-    position: relative;
-    padding: 12px 40px; 
-    border: 1px solid #9D9FA2;
-    border-radius: 1.5px;
-    background-color: #387593;
 
-    cursor: pointer;
-}
 
 /* ------------------------------------------------------------
                       HOME 
@@ -171,7 +160,6 @@ z-index:100;
  background-size: cover; 
  width: 100%;
  display: block; 
- height: auto; 
  padding-top: 350;
  padding-bottom: 500;
 color: #fff;
@@ -185,7 +173,7 @@ color: #fff;
      word-spacing: 21pt;
      font-size: 4.5em;
      text-align: left;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-family: sans-serif;
      line-height: 2;
     font-weight: 500;
     border: 5px double #fff;
