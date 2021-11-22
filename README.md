@@ -2,7 +2,7 @@
 
 This is a display of sample websites I made using HTML and CSS. 
 
-Projects
+There are a variety of differnet projects and snippets that need to be organised. 
 
 The Space Station Website &
 The Movie Theater Site
