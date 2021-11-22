@@ -1,0 +1,91 @@
+/*
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:small; 
+}
+
+#rsvp {
+    box-sizing: border-box;
+}
+
+input[type="text"], select  {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 10px 0;
+  display: block;
+  border: 8px solid rgb(13, 20, 112);
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+input[type="submit"]  {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    display: block;
+    border: 8px dotted rgb(104, 173, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  
+  */
+
+  body{
+    background-color: #184352;
+}
+
+.wrap {
+   top:0;
+   left:0;
+   height:auto; 
+   width:100%;
+}
+
+.menu-container{
+    top: 0;
+    left: 0;
+    /*to the core edge of the screen*/
+    position: absolute;
+    width: 100%;
+    background-color: #184352;
+}
+.menu {
+  font: bold 12px/10px sans-serif;
+  text-align: center;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/*We are now affecting the list items*/
+
+.menu li {
+    color: #B3B3B3;
+    display: inline-block;
+    margin-right:-4px;
+    position: relative;
+    padding: 12px 40px; 
+    border: 1px solid #9D9FA2;
+    border-radius: 1.5px;
+    background-color: #46e41f;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color:#5EAFDF;
+    color: #fff;
+}
+
+#home{
+  border: 4px solid black; 
+  position: relative;
+  margin: 50px 20px; 
+  float: right; 
+  padding: 100px; 
+  background-color: cornsilk;
+}
+
+
