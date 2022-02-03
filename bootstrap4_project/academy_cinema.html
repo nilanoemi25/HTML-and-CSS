@@ -41,8 +41,8 @@
         <div class="container">
           <h1 class="display-4 text-light ">Academy Cinemas</h1>
           <p class="lead text-light ">Sit back, relax and enjoy the show!</p>
-        </div>
-      </div>
+        </div> <br> 
+      </div> <br> 
 
       <div class="container">
         <div class="row">
@@ -124,9 +124,27 @@
   </div>
 </div>
 
+<!--Jumbotron bottom-->
+
+<div class="jumbotron jumbotron-fluid bg-info text-center">
+  <div> <br> 
+  <div class="container">
+    <h1 class="display-4 text-light ">Movie Deals</h1>
+    <p class="lead text-light ">Check out our monthly deals</p>
+    <button type="button" data-toggle="modal" data-target="#register" class="btn btn-outline-primary">See our monthly movie deals</button>
+  </div>
+</div> <br> 
+</div>
+
+
+
+
+
+
+
 <!--/showtimes-->
 
-      <div id="deals" class="" text-center> 
+      <div id="deals" class=" text-center"> 
       <form>
         <h1 class="text-primary my-5" > Sign up for Movie Club Awards </h1> 
         <div class="form-group">
@@ -134,9 +152,51 @@
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"> 
           <p> </p> 
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit your email to receive great movie rewards.">
+          Sign up
+        </button>
       </form>
     </div> 
+
+    <!-- Form Modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="register">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Register to receive movie deals</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <fieldset class="form-group">
+                <label for="formGroupExampleInput">First Name:</label>
+                <input type="text" class="form-control" id="firstname" placeholder="First name...">
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="formGroupExampleInput2">Last Name:</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Last name...">
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="formGroupExampleInput2">Email:</label>
+                <input type="text" class="form-control" id="email" placeholder="Email...">
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="formGroupExampleInput2">Password:</label>
+                <input type="text" class="form-control" id="password" placeholder="Password...">
+              </fieldset>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <div class="container">
       <ul class="nav nav-inline my-5 ">
@@ -168,5 +228,16 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script> $('.popover-dismiss').popover({
+                         trigger: 'focus'
+                                         })
+       </script> 
+ 
+ 
   </body>
 </html>
