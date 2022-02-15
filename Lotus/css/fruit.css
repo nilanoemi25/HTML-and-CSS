@@ -1,0 +1,55 @@
+
+/*
+.item-a {
+   /* grid-area: header; */
+   /*
+    background-color: crimson;
+    border: 4px solid green;
+    border-radius: 5px; 
+    grid-column-start: 2 ;
+    grid-column-end: 4;
+    grid-row-start: 1 ;
+    grid-row-end: 5;
+} 
+*/
+
+
+.container { 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 25px 25px 25px 25px;
+
+    overflow: hidden; 
+   /* grid-template-areas: "header "; */ 
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16,
+.box17, .box18, .box19, .box20  {
+    border: 1px solid black ;
+    overflow: hidden; 
+}
+
+.box1 { 
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.box2 {
+    background-color: crimson;
+    grid-column-start:2;
+    grid-column-end: 5;
+    grid-row-start:2;
+    grid-row-end: 4;
+    z-index: 1;
+}
+
+.box3 {
+    background-color: purple;
+    grid-column-start:1;
+    grid-column-end: 6;
+    grid-row-start:3;
+    grid-row-end: 5; 
+}

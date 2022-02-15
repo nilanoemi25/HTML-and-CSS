@@ -1,0 +1,235 @@
+.container { 
+    display: grid; 
+    grid-template-columns: repeat(8, 160px);
+    grid-template-rows: repeat(8, 75px);
+    background-color: lightseagreen;
+    
+}
+
+.div { 
+    font-weight: 500;
+    z-index: 12;
+}
+
+/* BOXES ie petals */
+
+.box1 { 
+  background-color: lightpink; 
+  grid-column-start: 6;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 2;
+  border-radius:  50px 0px 50px 50px; 
+  transform: skewX(-21deg);
+  transform: skewY(5deg);
+  border: 4px inset white;
+}
+
+.box3 { 
+    background-color: lightcoral; 
+    grid-column-start: 4;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    border-radius:  0px 50px 50px 50px; 
+    transform: skewY(25deg);
+    border: 4px inset white;
+   
+
+}
+
+.box4 { 
+    background-color: lightskyblue; 
+    grid-column-start: 5;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    border-radius:  50px 0px 50px 50px; 
+    transform: skewY(-25deg);
+    border: 4px inset white;
+
+
+}
+
+
+.box5 { 
+    background-color: lightskyblue; 
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    border-radius:  0px 50px 50px 50px; 
+    transform: skewX(20deg);
+    border: 4px inset white;
+}
+
+
+.box6 { 
+    background-color: pink; 
+    grid-column-start: 4;
+    grid-column-end: span 1.2;
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    border-radius:  0px 50px 50px 50px; 
+    transform: skewX(20deg);
+    z-index: 10;  
+    border: 4px inset white;
+}
+
+
+.box7 { 
+    background-color: lightcoral; 
+    grid-column-start: 5;
+    grid-column-end: span 1;
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    border-radius:  50px 0px 50px 50px; 
+    transform: skewX(-20deg);
+    z-index:10;
+    border: 4px inset white;
+     
+}   
+
+.box8 { 
+    background-color: lightblue; 
+    grid-column-start: 6;
+    grid-column-end: span 1;
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    border-radius:  50px 0px 50px 50px; 
+    transform: skewX(-20deg);
+    border: 4px inset white;
+    
+}
+
+.box9 { 
+    background-color: lightpink; 
+    grid-column-start: 3;
+    grid-column-end: span 1.5;
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    border-radius:  0px 50px 50px 50px; 
+    transform: skewX( 15deg);
+    border: 4px inset white;
+  
+}
+
+.box10 { 
+    background-color: lightsteelblue; 
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 5;
+    grid-row-end: span 2;
+    border-radius:  50px 0px 50px 0px; 
+    transform: skewX(-15deg);
+    border: 4px inset white;
+   
+}
+
+.box11 { 
+    background-color: lightcoral; 
+    grid-column-start: 4;
+    grid-column-end: span 1;
+    grid-row-start: 5;
+    grid-row-end: span 2;
+    border-radius:  50px 50px 50px 0px; 
+    transform: skewY(-20deg);
+    z-index: 11;
+    border: 4px inset white;
+    
+}
+    
+.box12 { 
+    background-color: pink;
+    grid-column-start: 5;
+    grid-column-end: span 1;
+    grid-row-start: 5;
+    grid-row-end: span 2;
+    border-radius:  50px 50px 0px 50px; 
+    transform: skewY(25deg);
+    z-index: 11;
+    border: 4px inset white;
+
+}
+
+
+.box13 { 
+    background-color: lightcoral; 
+    grid-column-start: 6;
+    grid-column-end: span 1;
+    grid-row-start: 5;
+    grid-row-end: span 2;
+    border-radius: 5px 50px 0px 50px; 
+    transform: skewY(15deg);
+    transform: skewX(22deg);
+    z-index: 12;
+    border: 4px inset white;
+   
+}
+
+/* HOVER effect for all petals */
+
+.box1:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+
+.box3:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+
+.box4:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+
+.box5:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+.box6:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+
+.box7:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+.box8:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+.box9:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+
+.box10:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+.box11:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+.box12:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+
+.box13:hover{ 
+    transform: scale(1.2);
+    transition: transform(1s);
+}
+
+
+/* General styling */
+
+h1{ 
+    font-size: medium; 
+    text-align: center;
+    text-decoration: underline;
+    
+}
